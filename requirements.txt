@@ -1,0 +1,6 @@
+streamlit
+gtts
+nltk
+gtts
+newspaper3k
+langdetect
