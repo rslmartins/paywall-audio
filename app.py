@@ -10,7 +10,6 @@ st.title("Outline")
 
 web_page = st.text_input(label='Read & annotate without distractions')
 if st.button("Create Outline"):
-#	web_page = 'https://oglobo.globo.com/opiniao/a-anarquia-militar-de-bolsonaro-25043771'
 	article=Article(web_page)
 	article.download()
 	article.parse()
